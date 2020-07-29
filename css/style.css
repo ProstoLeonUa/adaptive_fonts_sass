@@ -1,0 +1,15 @@
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: calc(24px + 16 * ((100vw - 320px) / 960));
+  font-weight: 900;
+}
+
+p {
+  font-size: calc(18px + 10 * ((100vw - 320px) / 960));
+  font-weight: 500;
+}
